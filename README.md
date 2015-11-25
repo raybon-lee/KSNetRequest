@@ -1,2 +1,17 @@
 # KSNetRequest
-对AFNetworking的二次封装，包含没网提示，菊花等
+
+##使用方法
+  KSNetRequest使用起来非常简单，<br>
+  * 导入头文件"KSNetRequest.h"<br>
+  
+```Objective-C
+[KSNetRequest requestTarget:self 
+                        POST:@"urlString" 
+                        parameters:@{} 
+                        success:^(NSURLSessionDataTask * _Nullable   task, id  _Nullable responseObject) {} 
+                        failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nullable error) {}]
+```
+````
+target参数目的是用来显示活动指示器
+
+最后感谢AFNetworking提供技术支持.
