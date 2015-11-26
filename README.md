@@ -2,6 +2,7 @@
 
 ##使用方法
   KSNetRequest使用起来非常简单，<br>
+  因为是对AFNetworking的封装，所以首先导入AFNetworking<br>
   * 导入头文件"KSNetRequest.h"<br>
   
 ```Objective-C
